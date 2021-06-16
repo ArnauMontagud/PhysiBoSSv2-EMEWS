@@ -1,0 +1,18 @@
+{  
+    "user_parameters.multiplier_divisor": {
+        "min":3, 
+        "max":300
+    },
+    "user_parameters.concentration_PI103": {
+        "min":0.1, 
+        "max":10
+    },
+    "cell_definitions.cell_definition.custom_data.PI103_xmid": { 
+        "min":0.1,
+        "max":10
+    },
+    "cell_definitions.cell_definition.custom_data.PI103_scal": { 
+        "min":0.1,
+        "max":10
+    }
+}

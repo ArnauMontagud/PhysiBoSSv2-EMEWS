@@ -9,7 +9,7 @@ versions will NOT work.
 The project consists of the following directories:
 
 ```
-EMEWS-PhysiBoSSa/
+PhysiBoSSv2-EMEWS/
   data/
   ext/
   etc/

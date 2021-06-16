@@ -21,14 +21,15 @@ export TURBINE_OUTPUT=$EMEWS_PROJECT_ROOT/experiments/$EXPID
 check_directory_exists
 
 # TODO edit the number of processes as required.
-export PROCS=48
+export PROCS=125
 
 # TODO edit QUEUE, WALLTIME, PPN, AND TURNBINE_JOBNAME
 # as required. Note that QUEUE, WALLTIME, PPN, AND TURNBINE_JOBNAME will
 # be ignored if the MACHINE variable (see below) is not set.
 export QUEUE=main
-export WALLTIME=47:59:00
-export PPN=3
+# export WALLTIME=47:59:00
+export WALLTIME=2:00:00
+export PPN=8
 export TURBINE_JOBNAME="${EXPID}_job"
 
 # Extra argument passed to SLURM script
@@ -50,8 +51,8 @@ export PYTHONPATH=$EMEWS_PROJECT_ROOT/python
 mkdir -p $TURBINE_OUTPUT
 
 
-EXECUTABLE_SOURCE=$EMEWS_PROJECT_ROOT/data/PhysiBoSSa/spheroid_TNF_v2
-DEFAULT_XML_SOURCE=$EMEWS_PROJECT_ROOT/data/PhysiBoSSa/config/*
+EXECUTABLE_SOURCE=$EMEWS_PROJECT_ROOT/data/PhysiBoSSv2/physiboss_drugsim_gastric_AGS
+DEFAULT_XML_SOURCE=$EMEWS_PROJECT_ROOT/data/PhysiBoSSv2/config/*
 PARAMS_FILE_SOURCE=$2
 
 EXECUTABLE_OUT=$TURBINE_OUTPUT/$(basename $EXECUTABLE_SOURCE)

@@ -1,0 +1,30 @@
+[
+    {
+        "name" : "user_parameters.multiplier_divisor",
+        "type" : "float",
+        "lower" : 3,
+        "upper" : 300,
+        "sigma": 30
+    },    
+    {
+        "name" : "user_parameters.concentration_PI103",
+        "type" : "float",
+        "lower" : 0.1,
+        "upper" : 10,
+        "sigma": 1
+    },    
+    {
+        "name" : "cell_definitions.cell_definition.custom_data.PI103_xmid",
+        "type" : "float",
+        "lower" : 0.1,
+        "upper" : 10,
+        "sigma": 1
+    },    
+    {
+        "name" : "cell_definitions.cell_definition.custom_data.PI103_scal",
+        "type" : "float",
+        "lower" : 0.1,
+        "upper" : 10,
+        "sigma": 1
+    }
+]

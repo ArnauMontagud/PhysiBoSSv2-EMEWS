@@ -13,11 +13,11 @@ The second command will load swift-t and dependencies.
 =========================================================================
 
 This project forked from Gerard's repo, implements a basic model of the TNF fate model pulse experiments.
-The code for the multi-scale model is placed in data/PhysiBoSSa.
+The code for the multi-scale model is placed in data/PhysiBoSSv2.
 
 Before running any exploration, the TNF model must be compiled running the following commands:
 
-cd data/PhysiBoSSa
+cd data/PhysiBoSSv2
 make
 cd ../..
 

@@ -1,6 +1,0 @@
-MODEL_FOLDER="sample_projects/spheroid_TNF_v2/"
-cp ${MODEL_FOLDER}custom_modules/* custom_modules/
-cp ${MODEL_FOLDER}main-spheroid_TNF.cpp main.cpp
-cp -r ${MODEL_FOLDER}config/* config
-cp ${MODEL_FOLDER}Makefile ./
-make
